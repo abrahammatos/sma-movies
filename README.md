@@ -1,12 +1,88 @@
-# React + Vite
+# smamovie - Your Movie Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sma Movies is a web application that allows you to discover and explore movies using The Movie Database (TMDb) API. You can search for movies by title and browse popular movies. The app is designed with a user-friendly interface, making it easy to find your next favorite film.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Movie Search:** Search for movies by title using the TMDb API.
+- **Popular Movies:** Browse a list of currently popular movies, updated regularly.
+- **Loading Indicator:** Displays a loading spinner while fetching movie data, ensuring a smooth user experience.
+- **Error Handling:** Shows informative error messages if something goes wrong during the API request.
+- **Debounced Search:** Optimizes search functionality to reduce API calls, making searches faster and more efficient.
+- **Responsive Design:** The app is designed to be used on various screen sizes.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React:** A JavaScript library for building user interfaces.
+- **TMDb API:** The Movie Database API for movie data.
+- **React-Use:** A collection of useful React hooks, including `useDebounce`.
+- **Vite:** For development and build environment.
+- **Tailwind CSS:** For fast and easy styling.
+
+## Getting Started
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/abrahammatos/sma-movies.git
+    ```
+
+2.  **Navigate to the project directory:**
+
+    ```bash
+    cd smamovie
+    ```
+
+3.  **Install dependencies:**
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+4.  **Create environment variables:**
+
+    - Create a `.env` file in the project's root directory.
+    - Inside the `.env` file, add the following line, replacing `<your-tmdb-api-key>` with your actual TMDb API key:
+
+    ```
+    VITE_TMDB_API_KEY=<your-tmdb-api-key>
+    ```
+
+    - You can get a api key by creating an account on this website: [https://www.themoviedb.org/](https://www.themoviedb.org/)
+
+5.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+6.  Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+## API Key
+
+This project uses The Movie Database (TMDb) API. To make the app work, you'll need to:
+
+1.  **Create an account:** Sign up for a free account at [https://www.themoviedb.org/](https://www.themoviedb.org/).
+2.  **Get your API key:** Once you're logged in, go to your account settings and request an API key.
+3.  **Add it to your `.env` file:** Follow step 4 under "Getting Started" to add your API key to your local project.
+
+## Screenshots
+
+Here are some screenshots showcasing the main features of the smamovie app:
+
+![Screenshot of the movie search page](https://lh3.google.com/u/0/d/1CizIuy4s1ALHHiF1D1wm7gHDytv-Q9Pz=w1920-h918-iv1)
+![Screenshot of the popular movies list](https://lh3.google.com/u/0/d/1NcRkqlC-fvD9pQ6wJ_rcK51FhpQ3mvkt=w1920-h918-iv1)
+![Screenshot of the all movies list](https://lh3.google.com/u/0/d/15J7s76bbwnnYReJu1t_2rkCD9JmcBtTC=w1920-h918-iv1)
+
+## Contributing
+
+Contributions are welcome! If you'd like to help improve smamovie, please follow these steps:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Commit your changes with clear and concise messages.
+4.  Submit a pull request.
