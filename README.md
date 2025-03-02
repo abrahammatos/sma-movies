@@ -1,4 +1,4 @@
-# smamovie - Your Movie Discovery App
+# Sma movie - Your Movie Discovery App
 
 Sma Movies is a web application that allows you to discover and explore movies using The Movie Database (TMDb) API. You can search for movies by title and browse popular movies. The app is designed with a user-friendly interface, making it easy to find your next favorite film.
 
@@ -74,9 +74,9 @@ This project uses The Movie Database (TMDb) API. To make the app work, you'll ne
 
 Here are some screenshots showcasing the main features of the smamovie app:
 
-![Screenshot of the movie search page](https://drive.google.com/u/0/drive-viewer/AKGpihb5gbEGpgK8maiQ5u0ewmXEC1pZvpiaDKA7FgXVR9iz2FbRh5u8N3BRUSD1V3_f01PNcE3R2d1mulvaKAJH2qkDM48zHTDoaM0=s1600-rw-v1)
-![Screenshot of the popular movies list](https://drive.google.com/u/0/drive-viewer/AKGpihaoThkIrhBy9KBKvOFPtq39OJfy6e0vBRxCnwZzYot_zEjOtrYVklb-wEw7Wcr4ybg6ZKn5BvlRCcpyGWzftSj-cpOxzC8dUA=s1600-rw-v1)
-![Screenshot of the all movies list](https://drive.google.com/u/0/drive-viewer/AKGpihaWp-LBqvfDs4sze82lyZTg6Pvg_CTIrg3A4fPU5V98wDi1LTUMatpAdKZ4cFPkAY0izdRI4PbyEvw4T8L_5hprmrH0qu9OOJE=s1600-rw-v1)
+![Screenshot of the movie search page](./screenshots/page1.png)
+![Screenshot of the popular movies list](./screenshots/page2.png)
+![Screenshot of the all movies list](./screenshots/page3.png)
 
 ## Contributing
 
